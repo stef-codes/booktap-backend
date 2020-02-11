@@ -8,4 +8,5 @@
 require 'faker'
 
 books = Book.create([{ title: 'Faker::Book.title' }, { author: 'Faker::Book.author' }])
+books = Book.create([{ title: 'Faker::Book.title' }, { author: 'Faker::Book.author' }])
 
