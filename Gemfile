@@ -46,3 +46,4 @@ gem 'faker'
 gem 'pry'
 
 gem 'active_model_serializers'
+
