@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :comments
-  resources :books
+  resources :books 
+  
 
   #nested routes
   resources :books, only: [:index, :show] do
